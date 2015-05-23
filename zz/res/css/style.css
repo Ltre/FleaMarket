@@ -1,0 +1,59 @@
+
+.example4{
+	background:-webkit-gradient(linear,left top,right bottom,
+	color-stop(0, #00F),
+	color-stop(0.5, #C00),
+	color-stop(1, #6F0)
+	);
+}
+
+#apDiv1 {
+	position: absolute;
+	z-index: 1;
+	border:#666 groove 5px;
+	align:center;
+	/* bottom: 0px; */
+	background-color:#fff;
+	width:;
+}
+#apDiv2 {
+	position: absolute;
+	z-index: 2;
+	left: 452px;
+	top: 286px;
+	background-color:#090;
+}
+/*过度效果*/
+.ex {
+	width: 80%;
+	height: 20%;
+	border-radius:15px;
+	
+}
+.ex1:hover{
+	width: 400px;
+	height:275px;
+	transition-property:width height;
+	transition-duration:2s;
+	-webkit-transition-property:width height;
+	-webkit-transition-duration:2s;
+}
+.ex2:hover{
+	width: 80%;
+	height:35%;
+	margin-left:0px;
+	margin-top:0px;
+	transition-property:all;
+	transition-duration:0.2s;
+
+	-webkit-transition-property:all;
+	-webkit-transition-duration:0.2s;
+}
+.ex3:hover{
+	transform:rotate(5deg);
+	-webkit-transform:rotate(5deg);
+	transition-property:all;
+	transition-duration:2s;
+	-webkit-transition-property:all;
+	-webkit-transition-duration:2s;
+}
